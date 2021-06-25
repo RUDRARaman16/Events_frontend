@@ -1,0 +1,32 @@
+<div class="bg">
+  <div class="row  ">
+    <div class="col-lg-6">
+
+      <img class=" imge" src="assets\images\15.png" alt="">
+
+    </div>
+    <div class="col-lg-6 login">
+      <h1>Reminder</h1>
+      <form [formGroup]="loginForm" (ngSubmit)="login()">
+        <div class="mb-3">
+          <input class="inputt" type="text" id="userid" formControlName="userID" name="userID"
+            placeholder="Enter your ID">
+          <div
+            *ngIf="(loginForm.get('userID')?.touched || loginForm.get('userID')?.dirty ) && loginForm.get('userID')?.errors"
+            class="error"> * Invalid User ID</div>
+        </div>
+        <div class="mb-3">
+          <input class="inputt" type="password" id="pwd" formControlName="pswd" name="pswd"
+            placeholder=" Enter your password">
+          <div
+            *ngIf="(loginForm.get('pswd')?.touched || loginForm.get('pswd')?.dirty ) && loginForm.get('pswd')?.errors"
+            class="error"> * Invalid Password</div>
+        </div>
+
+        <button type="submit" class="btn btn-success button">Log In</button>
+        <p> Don't have an account! Register</p>
+        <button type="submit" class="btn btn-success button" (click)="register()"> Register</button>
+      </form>
+    </div>
+  </div>
+</div>

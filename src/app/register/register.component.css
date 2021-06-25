@@ -1,0 +1,37 @@
+.reg{
+
+background-image: url("C:\Users\user\Desktop\Remainder App\reminder\src\assets\images\wp2777452.jpg");
+height: 700px;
+/* font-family: 'Lobster', cursive; */
+}
+
+.secnd-col{
+    margin-top: 10%;
+}
+h1{
+        font-family: 'Lobster', cursive;
+        margin-left: 4%;
+}
+.inputt{
+    margin-left: 4%;
+    width: 65%;
+    height: 35px;
+    text-align: center;
+    /* border: black; */
+    border-color: white;
+    border-bottom-color: purple;
+    border-bottom: darkmagenta;
+    /* border-left-width: 20px; */
+    border-style:solid;
+}
+.button{
+    margin-left: 4%;
+    width: 65%;
+background-color:purple;
+color: white;
+font-size: larger;
+font-family: 'Lobster', cursive;
+}
+.button:hover{
+    background-color: mediumvioletred;
+}

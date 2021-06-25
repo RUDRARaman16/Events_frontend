@@ -1,0 +1,64 @@
+.bg{
+    background-image: url("C:\Users\user\Desktop\Remainder App\reminder\src\assets\images\wp2777452.jpg");  
+    height: 1000px;  
+    
+      
+}
+.imge{
+   
+    width: 15%;
+    transform: rotate(-20deg);
+    position: absolute;
+    left: 20%;
+    top: 15%;
+    
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+   color: black;
+   font-weight: 500;
+   MARGIN-LEFT: 58px;
+   line-height: 2;
+
+}
+@media(max-width: 1028px) {
+    
+      .imge {
+          margin-left: 20%;
+          margin-top: 5%;
+          width: 23%;
+        position: static;
+        /* in the mobile version to make the phn image visibe (actually it was not ssen in mobile version so to make it visible)make the position absolute chaange to STatic and the transform rotate to 0 so it would be straighgt not right alighned or slant */
+        transform: rotate(0);
+       
+      }
+      
+    }
+
+.login{
+margin-top: 5%;
+   position: absolute;
+   top: 8%;
+   left: 50%;
+   
+   width: 35%;
+   height: 56%;
+}
+p{
+    margin-left: 25px;
+}
+.inputt{
+    
+  height: 40px;
+    width: 65%;
+    
+}
+.button{
+    width: 65%;
+    background-color: purple;
+
+}
+.button:hover{
+    background-color: rebeccapurple;
+}

@@ -1,0 +1,26 @@
+.reg{
+    
+background-image: url("C:\Users\user\Desktop\Remainder App\reminder\src\assets\images\wp2777452.jpg");
+height: 700px;
+}
+.button{
+    margin-top: 30%;
+    margin-left: 10%;
+    background-color: purple;
+}
+.name{
+    margin-left: 105px;margin-top: 20%;
+    font-size: 35px;
+   
+    font-family:'Lobster', cursive;
+}
+img{
+    width :45px;
+    height: 45px;
+}
+.nam{
+    margin-left: 125px;margin-top: 5%;
+    font-size: 25px;
+   
+    font-family:'Lobster', cursive;
+}

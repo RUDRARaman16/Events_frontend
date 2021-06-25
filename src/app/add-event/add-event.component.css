@@ -1,0 +1,33 @@
+#event {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    height: 100vh;
+    color: black;
+  }
+  #event .container #event-row #event-column #event-box {
+    margin-top: 120px;
+    max-width: 600px;
+    height: 320px;
+    border: 1px solid #92057b;
+    background-color: #f7f0f5;
+    
+  }
+  #event .container #event-row #event-column #event-box #event-form {
+    padding: 20px;
+    
+  }
+  #event .container #event-row #event-column #event-box #event-form #register-link {
+    margin-top: -85px;
+  }
+  .text-info{
+      color: purple!important;
+     align-items: center;
+     
+  }
+  .btn-info{
+background-color: purple;
+color: white;
+
+width: 49%;
+  }
