@@ -1,6 +1,6 @@
 .reg{
 
-background-image: url("C:\Users\user\Desktop\Remainder App\reminder\src\assets\images\wp2777452.jpg");
+background-image: url("..\..\assets\images\wp2777452.jpg");
 height: 700px;
 /* font-family: 'Lobster', cursive; */
 }
@@ -19,8 +19,7 @@ h1{
     text-align: center;
     /* border: black; */
     border-color: white;
-    border-bottom-color: purple;
-    border-bottom: darkmagenta;
+    
     /* border-left-width: 20px; */
     border-style:solid;
 }

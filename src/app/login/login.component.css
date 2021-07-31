@@ -1,8 +1,7 @@
 .bg{
-    background-image: url("C:\Users\user\Desktop\Remainder App\reminder\src\assets\images\wp2777452.jpg");  
-    height: 1000px;  
-    
-      
+    background-image: url("..\..\assets\images\wp2777452.jpg");  
+
+    height: 800px;  
 }
 .imge{
    
